@@ -6,7 +6,6 @@ import './Decentralized.css';
 const Decentralized_MLM = () => {
   return (
     <div>
-      {/* Header Section */}
       <header className="main_header">
         <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
           <div className="col-12 col-md-8 col-lg-8">
@@ -17,7 +16,6 @@ const Decentralized_MLM = () => {
         </div>
       </header>
 
-      {/* Paragraph Section */}
       <div className="framed-paragraph container my-4">
         <p>
           A number of Small and Medium-sized enterprises have shown their interest in getting cryptocurrency MLM software development services. If you are also looking to do so, we would like to tell you that cryptocurrency MLM software can help your business get financial as well as marketing assistance and follow a better roadmap.
@@ -30,7 +28,6 @@ const Decentralized_MLM = () => {
         </p>
       </div>
 
-      {/* Decentralized MLM Section */}
       <header className="main_header">
         <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
           <div className="col-12 col-md-8 col-lg-8">
@@ -46,7 +43,6 @@ const Decentralized_MLM = () => {
         </p>
       </div>
 
-      {/* What We Develop Section */}
       <header className="main_header">
         <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
           <div className="col-12 col-md-8 col-lg-8">
@@ -80,7 +76,7 @@ const Decentralized_MLM = () => {
         </div>
       </div>
 
-      {/* Cryptocurrency Smart Contract Services Section */}
+      
       <header className="main_header">
         <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
           <div className="col-12 col-md-8 col-lg-8">
@@ -111,7 +107,6 @@ const Decentralized_MLM = () => {
         </div>
       </div>
 
-      {/* Reasons to Choose Section */}
       <header className="main_header">
         <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
           <div className="col-12 col-md-8 col-lg-8">
@@ -139,7 +134,6 @@ const Decentralized_MLM = () => {
         </div>
       </div>
 
-      {/* Footer */}
       <footer>
         <p className="text-center py-5 bg-light"></p>
       </footer>

@@ -1,9 +1,11 @@
 
-import './LeadManagement.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'tailwindcss/tailwind.css';
+import './LeadManagement.css';
 
-const CRM = () => {
+const LeadManagement = () => {
   return (
-  <>
+  <div>
     <div>
       <header className="main_header">
             <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
@@ -32,6 +34,7 @@ const CRM = () => {
           </div>
         </header>
         
+        </div>
         <div>
           <div className="container mx-auto px-2 py-6 max-w-md sm:max-w-3xl lg:max-w-6xl">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -107,7 +110,7 @@ const CRM = () => {
               </div>
             </div>
           </div>
-        </div>
+        
           <header className="main_header">
             <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
               <div className="col-12 col-md-8 col-lg-8 ">
@@ -117,10 +120,10 @@ const CRM = () => {
               </div>
             </div>
           </header>
-
+        </div>
         <div className="container mx-auto px-2 py-6 max-w-md sm:max-w-3xl lg:max-w-6xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
- 
+  
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="mb-2">
                 <img className="w-16 h-16 mr-4" src="assets/increased_ROI.png" alt="Increased ROI"/>
@@ -128,7 +131,6 @@ const CRM = () => {
                 <p className="text-gray-600">One of the Best features including in our Lead Management Software which guaranteed you to increased higher and higher returns on investment.</p>
               </div>
             </div>
-        
 
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="mb-2">
@@ -138,7 +140,7 @@ const CRM = () => {
               </div>
             </div>
         
-
+   
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="mb-2">
                 <img className="w-16 h-16 mr-4" src="assets/improving_lead_nurturing.png" alt="Improve Lead Nurturing"/>
@@ -146,8 +148,7 @@ const CRM = () => {
                 <p className="text-gray-600">this features will helps you to better understand customers needs. This can empower your advertising group to get kind of leads are better equipped for your buisness Subsiquently.</p>
               </div>
             </div>
-        
-       
+ 
             <div className="bg-white rounded-lg p-6 shadow-md">
               <div className="mb-2">
                 <img className="w-16 h-16 mr-4" src="assets//quality_leads.png" alt="Qualify leads"/>
@@ -157,12 +158,11 @@ const CRM = () => {
             </div>
           </div>
         </div>
-        
                   <div className="bg-blue-900">
                     <header className="main_header">
                       <div className="d-flex justify-content-center align-items-center flex-column pt-5 container">
                         <div className="col-12 col-md-8 col-lg-8 ">
-                          <h1 className=" main_heading text-center fs-2 fs-md-2 fs-lg-2 " style="color: white;" >
+                          <h1 className=" main_heading text-center fs-2 fs-md-2 fs-lg-2 " style={{color: 'white'}} >
                             How Our Lead Management System Actually Works?
                           </h1>
                         </div>
@@ -170,7 +170,7 @@ const CRM = () => {
                     </header>
                     <div className="container mx-auto px-2 py-6 max-w-md sm:max-w-3xl lg:max-w-6xl">
                       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-                        
+
                         <div className="bg-blue-700 rounded-lg p-6 shadow-md glow ">
                           <div className="mb-2">
                             <img className="w-16 h-16 mr-4" src="assets/Beginning_with.png" alt="Beginning With the Right Technology"/>
@@ -179,7 +179,6 @@ const CRM = () => {
                           </div>
                         </div>
                     
-            
                         <div className="bg-blue-700 rounded-lg p-6 shadow-md glow">
                           <div className="mb-2">
                             <img className="w-16 h-16 mr-4" src="assets/working_closely.png" alt="Working Closely With Sales"/>
@@ -188,7 +187,7 @@ const CRM = () => {
                           </div>
                         </div>
                     
-              
+       
                         <div className="bg-blue-700 rounded-lg p-6 shadow-md glow">
                           <div className="mb-2">
                             <img className="w-16 h-16 mr-4" src="assets/carrying_out.png" alt="Carrying out Lead Nurture and Remarket Campaigns"/>
@@ -196,7 +195,7 @@ const CRM = () => {
                             <p className="text-white">Lead the executives administrations including Lead sustain missions will assist with warming leads. Lead scoring will assist you with recognizing when they are doubtlessly prepared to purchase. This can help in dealing with the lead capability process. On occasion not every one of the leads that we sustain, qualify and push to deals will change over to a client at the primary human touch. That is the place where remarket sustains turns into a legend. We ensure that our showcasing robotization innovation permits our outreach group to push drives back to advertising for additional supporting in the event.</p>
                           </div>
                         </div>
-         
+                
                         <div className="bg-blue-700 rounded-lg p-6 shadow-md glow">
                           <div className="mb-2">
                             <img className="w-16 h-16 mr-4" src="assets/progress_tracking.png" alt="Progress Tracking"/>
@@ -204,13 +203,11 @@ const CRM = () => {
                             <p className="text-white">The right showcasing strategies and innovation will permit you to follow your purchasers excursion so you can adjust your commitment with them. It will likewise assist you with perceiving what sort of commitment adds worth and which ones decline from the cycle. This valuable knowledge ought to direct your refinement so you can expand adequacy over the two deals and advertising disciplines. Lead the executives can get incredibly convoluted without the appropriate construction and association, so make sure that you choose one of the Best lead management software development company in Noida.</p>
                           </div>
                         </div>
-
                   </div>
-                  </div>
-       </div>
     </div>
-  </>
-  )
-}
+  </div>
+  </div>
+  );
+};
 
-export default CRM;
+export default LeadManagement;
